@@ -1,10 +1,12 @@
-# StudentApi
+# ScholarLedger
+
+Maintained by **Saikrishnap** · [GitHub](https://github.com/saikrishnap0)
 
 A simple REST API for managing student records, built with Go and SQLite.
 
 ## Overview
 
-StudentApi is a lightweight RESTful API that allows you to perform CRUD (Create, Read, Update, Delete) operations on student data. It uses SQLite as the database backend and is designed with a clean architecture using Go's standard library and minimal external dependencies.
+ScholarLedger is a lightweight RESTful API that allows you to perform CRUD (Create, Read, Update, Delete) operations on student data. It uses SQLite as the database backend and is designed with a clean architecture using Go's standard library and minimal external dependencies.
 
 ## Features
 
@@ -21,7 +23,7 @@ StudentApi is a lightweight RESTful API that allows you to perform CRUD (Create,
 ```
 .
 ├── cmd/
-│   └── studentApi/
+│   └── scholarledger/
 │       └── main.go              # Application entry point
 ├── config/
 │   └── local.yaml               # Configuration file
@@ -57,8 +59,8 @@ StudentApi is a lightweight RESTful API that allows you to perform CRUD (Create,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/iShinzoo/studentApi.git
-   cd studentApi
+   git clone https://github.com/saikrishnap0/scholarledger.git
+   cd scholarledger
    ```
 
 2. Install dependencies:
@@ -68,7 +70,7 @@ StudentApi is a lightweight RESTful API that allows you to perform CRUD (Create,
 
 3. (Optional) Build the application:
    ```bash
-   go build -o bin/studentApi cmd/studentApi/main.go
+   go build -o bin/scholarledger cmd/scholarledger/main.go
    ```
 
 ## Configuration
@@ -89,13 +91,13 @@ You can create different configuration files for different environments (e.g., `
 Run the application with the configuration file:
 
 ```bash
-go run cmd/studentApi/main.go -config config/local.yaml
+go run cmd/scholarledger/main.go -config config/local.yaml
 ```
 
 Or if you built the binary:
 
 ```bash
-./bin/studentApi -config config/local.yaml
+./bin/scholarledger -config config/local.yaml
 ```
 
 The server will start on the address specified in the configuration (default: `localhost:8082`).

@@ -1,6 +1,6 @@
 package storage
 
-import "github.com/iShinzoo/studentApi/internal/types"
+import "github.com/saikrishnap0/scholarledger/internal/types"
 
 type Storage interface {
 	CreateStudent(name string, email string, age int) (int64, error)

@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/iShinzoo/studentApi/internal/config"
-	"github.com/iShinzoo/studentApi/internal/types"
+	"github.com/saikrishnap0/scholarledger/internal/config"
+	"github.com/saikrishnap0/scholarledger/internal/types"
 	_ "modernc.org/sqlite" // to use this indirectly we have to use underscore (_) otherwise will show error
 )
 

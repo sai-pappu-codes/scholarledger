@@ -11,9 +11,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/iShinzoo/studentApi/internal/config"
-	"github.com/iShinzoo/studentApi/internal/http/handlers/student"
-	"github.com/iShinzoo/studentApi/internal/storage/sqlite"
+	"github.com/saikrishnap0/scholarledger/internal/config"
+	"github.com/saikrishnap0/scholarledger/internal/http/handlers/student"
+	"github.com/saikrishnap0/scholarledger/internal/storage/sqlite"
 )
 
 func main() {

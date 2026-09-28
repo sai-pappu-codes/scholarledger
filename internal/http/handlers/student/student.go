@@ -10,9 +10,9 @@ import (
 	"strconv"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/iShinzoo/studentApi/internal/storage"
-	"github.com/iShinzoo/studentApi/internal/types"
-	"github.com/iShinzoo/studentApi/internal/utils/response"
+	"github.com/saikrishnap0/scholarledger/internal/storage"
+	"github.com/saikrishnap0/scholarledger/internal/types"
+	"github.com/saikrishnap0/scholarledger/internal/utils/response"
 )
 
 func New(storage storage.Storage) http.HandlerFunc {

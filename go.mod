@@ -1,4 +1,4 @@
-module github.com/iShinzoo/studentApi
+module github.com/saikrishnap0/scholarledger
 
 go 1.25.6
 
